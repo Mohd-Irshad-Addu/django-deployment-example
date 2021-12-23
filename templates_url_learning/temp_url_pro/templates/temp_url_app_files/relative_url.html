@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative url templates</h1>
+    <a href="{% url 'temp_url_app:other' %}">link for OTHER</a><br>
+    <a href="{% url 'temp_url_app:thanks' %}">VISIT ME</a><br>
+    <!--LINKING ADMIN PAGE-->
+    <a href="{%url 'admin:index'%}">link for ADMIN</a>
+    <!--back to index url-->
+    <a href="{% url 'index'%}">BACK TO HOME</a>
+  </body>
+</html>

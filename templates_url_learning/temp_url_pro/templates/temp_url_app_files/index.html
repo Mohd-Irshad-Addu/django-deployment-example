@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "temp_url_app_files/base.html" %}
+{% block body_block%}
+
+    <h1>HEY WELCOME TO THE INDEX PAGE!</h1>
+    <!--<h2>please go for /temp_app/relative</h2>-->
+    <!--<h1>{{ text | upper }}</h1>
+    <h1>{{ number | add:"99" }}</h1>-->
+    <h1>{{ text|cut_this:'world'}}</h1><!--here i am cutting world "word"-->
+    <h1>{{ number }}</h1>
+    {% endblock %}
